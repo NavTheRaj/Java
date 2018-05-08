@@ -1,0 +1,27 @@
+class datatypes
+{
+	public static void main(String[] args)
+	{
+		System.out.println(Byte.MAX_VALUE);
+		System.out.println(Byte.MIN_VALUE);
+		byte byteValue=125;
+		short shortValue=12345;
+		int intValue=12345674;
+		long longValue=1234676329982L;
+		float floatValue=123.46746f;
+		float floatValue1=1234.47648e3f;
+		double doubleValue=3878437.2854832;
+		char charValue='B';
+		char charValue1=88;
+		System.out.println("The byte value is "+byteValue);
+		System.out.println("The short value is "+shortValue);
+        System.out.println("The integer value is "+intValue);
+        System.out.println("The long value is "+longValue);
+        System.out.println("The float value is "+floatValue);
+        System.out.println("The float  value 1 is"+floatValue1);
+        System.out.println("The double value is"+doubleValue);
+        System.out.println("The char value is  "+charValue);
+        System.out.println("The char value 1 is  "+charValue1);
+
+	
+}}
