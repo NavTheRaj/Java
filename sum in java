@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class operatorUse
+{
+  public static void main(String args[])
+  {
+    Scanner sc=new Scanner (System.in);
+  //Arithemetic operator + / * %
+  System.out.print("Enter your First number ");
+  int firstNum=sc.nextInt();
+  System.out.print("\nEnter your Second number ");
+  int secNum=sc.nextInt();
+  
+  //for addition
+  int sum=firstNum+secNum;
+  System.out.println("Sum=> "+ sum);
+  }
+}
+                    
+  
