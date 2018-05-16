@@ -1,0 +1,22 @@
+class stringDefine
+{
+
+ public static void main(String[] args)
+ {
+
+  String stringOne="I am student at sunway.";
+  String stringTwo="I like learning java.";
+   System.out.println(stringOne);
+   System.out.println(stringTwo);
+
+   //concatination of string
+   System.out.println(stringOne+ " "+stringTwo);
+
+   //next method of string concatination.
+
+   String s="My class start at 6.30 am.";
+   s=s.concat("My java class is interesting.");
+   System.out.println(s);
+
+ }
+}
