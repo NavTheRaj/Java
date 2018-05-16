@@ -1,0 +1,22 @@
+
+
+class Ifelsetesting{
+
+  public static void main(String[]args){
+  //random number generation
+    int marks= (int) (Math.random()*101);
+    System.out.println("The marks obtained number generated is:" + marks);
+   if(marks<32)
+   {System.out.println("Sorry!! You are failed.");}
+   
+   else
+   {System.out.println("You are passed!!");
+  }
+
+
+
+
+  }
+
+
+}
