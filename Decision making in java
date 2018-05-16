@@ -1,0 +1,22 @@
+import java.util.Scanner;
+  
+  class RelationOperator {
+
+public static void main(String[]args)
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter your age here");
+int age =sc.nextInt();
+System.out.println("Enter your marks here");
+int marks =sc.nextInt();
+//Relational operator (< > <= >= == !=)
+if (age>=20 || marks>90)
+{
+  System.out.println("Congratulation!!You can fill the form for presidency.");
+}
+else
+  System.out.println("Sorrry!! Try for next year.");
+}
+  }
+  
+  
