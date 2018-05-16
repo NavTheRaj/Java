@@ -1,0 +1,18 @@
+
+
+class Ifelsetesting{
+
+  public static void main(String[]args){
+  //random number generation
+    int randomNumber= (int) (Math.random()*6);
+    System.out.println("The random number generated is:" + randomNumber);
+  
+  }
+
+
+
+
+
+
+
+}
