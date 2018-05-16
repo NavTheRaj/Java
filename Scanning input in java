@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class scanTest
+{ 
+   public static void main(String[] args)
+   {
+      Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Your name:");
+        String name=sc.nextLine();
+        System.out.println("Enter the roll no");
+        int roll=sc.nextInt();
+        System.out.println("User name: " +name+ " Roll no:"+roll);
+   }
+}
