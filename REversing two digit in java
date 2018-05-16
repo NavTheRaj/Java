@@ -1,0 +1,21 @@
+
+import java.util.Scanner; //Used for taking input
+
+class Program{
+public static void main(String args[])
+
+{  
+Scanner input = new Scanner(System.in);  // Reading from System.in
+int num,remainder,quotient,reversedNum;
+ System.out.println("Enter your two digit numbers\n");
+     num = input.nextInt();  //it reads the input and save in memory.
+
+     remainder=num%10;
+     quotient=num/10;
+     reversedNum=remainder*10+quotient;
+    System.out.println("Reverse of "+num+" is: " +reversedNum);
+
+
+}
+
+}
