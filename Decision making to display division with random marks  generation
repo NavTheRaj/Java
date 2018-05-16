@@ -1,0 +1,37 @@
+
+
+class Ifelsetesting{
+
+  public static void main(String[]args){
+  //random number generation
+    int marks= (int) (Math.random()*101);
+    System.out.println("The marks obtained number generated is:" + marks);
+    if(marks>=32 && marks<40)
+    {
+      System.out.println("Passed.Third division");
+    }
+    else if(marks>=40 && marks<60)
+    {
+      System.out.println("Passed.Second Division.");
+    }
+    else if(marks>=60 && marks<80)
+    {
+      System.out.println("Passed.First Division.");
+      
+    }
+    else if(marks>=80) 
+    {
+      System.out.println("Passed.First Division with Distinction.");
+    }
+    else  
+    {
+      System.out.println("Failed ***");
+    }
+
+
+
+
+  }
+
+
+}
