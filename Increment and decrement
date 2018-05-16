@@ -1,0 +1,28 @@
+import java.util.Scanner;
+  
+  class IncreDecre {
+
+public static void main(String[]args)
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter your First number here");
+int a =sc.nextInt();
+System.out.println("Enter your second numberhere");
+int b=sc.nextInt();
+ //Increment and decrement
+
+/*System.out.println("a =" +  a);
+ System.out.println ("b="+ b);
+System.out.println("++a=" + ++a);
+ System.out.println ("a++=" + a++);
+ System.out.println ("b++=" +  b++);
+ System.out.println ("++b=" + ++b);
+ System.out.println ("a=" + a);
+ System.out.println ("b=" + b);*/
+
+int x=(a>b)?a:b;
+System.out.println("The value of x=" + x);
+}
+  }
+  
+ 
