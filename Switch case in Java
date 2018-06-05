@@ -1,0 +1,19 @@
+class SwitchCase{
+
+  public static void main( String[] args){
+    int choice=(int) (Math.random()*4+1);
+    System.out.println("The number genertaed is" +choice);
+    switch(choice)
+    {
+      case 1:System.out.println("Enjoy with the rain outside");
+      case 2:System.out.println("Talk to your brain tonight");
+      case 3:System.out.println("Enjoy the meal with your family");
+     default:System.out.println("You will meet some inspirational figure today.");
+      
+      
+      
+    }
+  
+ 
+  }
+}
