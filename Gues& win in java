@@ -1,0 +1,35 @@
+import java.util.Scanner; //This is importing code for class files
+
+class WhileTest{  // This is defining the class name 
+
+  public static void main(String args[])
+  {
+     Scanner sc=new Scanner(System.in);
+     
+      int randomNumber= (int) (Math.random()*10);
+      int i=1;
+      System.out.println(randomNumber);
+    while (i<=10)
+          {
+      System.out.println("Enter Your Guess Upto 10");
+     int guess=sc.nextInt();
+
+       if(guess==randomNumber)
+       {
+         System.out.println("Congo!!Your Guess is right!!");
+         break;
+       }
+       else if(guess<randomNumber)
+       {
+       System.out.println("Sorry your guess is less.Guess Higher Next Time");
+       
+       }
+       else
+       {
+       
+        System.out.println("Sorry your guess is Higher.Guess lower Next Time");
+         
+       }
+    }
+  }
+}
