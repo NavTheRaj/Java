@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+class AtmFile{
+  
+  public static void main(String args[])
+  {
+    Scanner sc=new Scanner(System.in);
+    int pin=3737;
+    int i=1,userpin;
+    do
+    {
+      System.out.println("Enter Your Pin Number");
+      userpin=sc.nextInt();
+      
+      if(userpin==pin)
+      {
+        System.out.println("Welcome!!You can withdraw Your Money!!");
+        break;
+      }
+      else
+      {
+        if(i==1)
+        {
+          System.out.println("Sorry Your Pin is wrong.You have three chances remaining.\nDo you want hint??Y OR N");
+          
+        }
+        else if(i==2)
+        {
+         System.out.println("Again Your Pin is wrong.You have two more chances.\nDo You want hint?? Y OR N"); 
+        }
+        
+        else if(i==3)
+        {
+        System.out.println("Again Your Pin is wrong.You have last one chances.\nDo You want hint?? Y OR N");
+        }
+        else
+        {
+        System.out.println("Again Your Pin is wrong.\n*******ATM REJECTED******.");
+        }
+      
+      
+      }
+      i++;
+    }
+    
+    while(i<=4);
+  
+  }
+}
+ 
