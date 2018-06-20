@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class DoWHileTest3{
+  
+  public static void main(String args[])
+    
+  {
+    Scanner sc=new Scanner(System.in);
+   
+    int sum=0,num;
+    
+    do{
+       System.out.println("Enter any number you want to add");
+     num=sc.nextInt();
+     sum=sum+num;
+      System.out.println("Value after adding user input=" +sum);
+       
+    }while(num!=0);
+  }
+}
