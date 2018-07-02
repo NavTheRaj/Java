@@ -1,0 +1,18 @@
+//sequential sorting(search & swap)
+
+//to swap values of two numbers
+
+class Swap{
+  public static void main(String args[]){
+    int a=10,b=20;
+    System.out.println("Before swapping the value of a: "+a+" & b:"+b);
+    
+    int temp;
+    temp=a;  // temp=10
+    a=b;     //a=20
+    b=temp;    //b=10
+    
+    System.out.println("After swapping the value of a: "+a+" & b:"+b);
+                         }
+}
+    
