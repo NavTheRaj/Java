@@ -1,0 +1,12 @@
+//replace()
+
+class StringBufferReplace{
+  public static void main(String args[]){
+    
+    StringBuffer sb1=new StringBuffer("Noon");
+    
+    sb1.replace(1,3,"irva");  
+    System.out.println(sb1);
+  }
+}
+
