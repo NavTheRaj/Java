@@ -1,0 +1,12 @@
+//insert()
+
+class StringBufferInsert{
+  public static void main(String args[]){
+    
+    StringBuffer sb1=new StringBuffer("Nn");
+    
+    sb1.insert(1,"irva");  
+    System.out.println(sb1);
+  }
+}
+
