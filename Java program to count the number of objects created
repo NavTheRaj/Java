@@ -1,0 +1,37 @@
+
+// Java program Find Out the Number of Objects Created  
+// of a Class 
+
+class DemoCount{
+    public static void main(String args[]) 
+    { 
+       Box b1 = new Box(10); 
+       Box b2 = new Box(20); 
+       Box b3 = new Box(30); 
+  
+         System.out.println("First Box=> " +b1.length+ " Second Box=> " +b2.length+ " Third Box= " +b3.length); 
+       //System.out.println("The total number of objects is " +Box.noOfObjects); 
+         Box.display();//call the static method by class name.
+    } 
+} 
+
+class Box { 
+  
+   static int noOfObjects = 0;
+   int length;
+  
+    
+    public Box(int l) 
+    { 
+      this.length=l;
+       // noOfObjects += 1; 
+        noOfObjects++;
+    } 
+    
+    public static void display()
+    {
+      System.out.println("The total number of objects is " +noOfObjects);
+    }
+}
+
+    
