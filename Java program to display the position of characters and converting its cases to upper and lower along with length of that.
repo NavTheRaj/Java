@@ -1,0 +1,21 @@
+class DisplayCharacter{
+  public static void main(String args[]){
+   String word="Java Class";
+   
+   
+//String pos = Character.toString(word.charAt(8));
+//System.out.println( pos ); // Prints f
+   //Displaying the n-th character*****
+   System.out.println("The eighth character is " +Character.toString(word.charAt(8)));
+   //Changing all the letters to small case
+   System.out.println("The word in small case: " + word.toLowerCase());
+   //Changing to uppercase****
+   System.out.println("The word in upper case is " +word.toUpperCase());
+   
+   //Count the letters in a word
+   System.out.println("The number of letters in the word is " +word.length());
+   
+  }
+}
+
+  
