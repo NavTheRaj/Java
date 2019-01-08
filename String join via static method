@@ -1,0 +1,33 @@
+ import java.util.*; 
+class Combine1{
+  public static void main(String[] args)
+  {
+    char letter[]={'a','b'};
+   
+      for(int x=0; x < letter.length;x++){
+      System.out.println(combine(letter) + x + "");
+       System.out.println(combine(letter) + letter[x]+ " ");
+        System.out.println(combine(letter) + " ");
+    }
+     }
+   public static String combine(char[] a){
+      String join=" ";
+     
+      
+       for(int x=1; x < a.length;x++){
+         
+         join=a[x]+" "+a[x-1];
+       
+    
+    }
+        return (join);
+   }
+  
+  
+ }
+
+ 
+
+    
+   
+   
